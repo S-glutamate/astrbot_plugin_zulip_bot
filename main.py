@@ -2,4 +2,4 @@ from astrbot.api.star import Context, Star
 
 class MyPlugin(Star):
     def __init__(self, context: Context):
-        from .zulip_adapter import ZulipAdapter # noqa
+        from .zulip_adapter import ZulipPlatformAdapter # noqa
